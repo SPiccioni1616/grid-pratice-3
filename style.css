@@ -1,0 +1,12 @@
+/* this is just to see the boxes */
+div{
+    border: 1px solid turquoise;
+}
+
+/* this is wer the grid layout begins
+GRID */
+
+.container{
+    display: grid;
+    grid-template-columns:  ;
+}
