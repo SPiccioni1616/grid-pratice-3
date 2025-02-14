@@ -8,5 +8,50 @@ GRID */
 
 .container{
     display: grid;
-    grid-template-columns:  ;
+    grid-template-columns: 2fr 2fr 2fr ;
+    grid-template-rows: 2fr 3fr 2fr 6fr 1fr;
 }
+
+.logo{
+    grid-column:1/4 ;
+    grid-row: 1/2 ;
+    background-color: #00e1ff;
+}
+
+.nav{
+    grid-column:1/4 ;
+    grid-row: 2/3;
+    background-color: aquamarine;
+}
+
+.header{
+    grid-column: 1/4;
+    grid-row:  3/4;
+    background-color: blue;
+}
+
+.leftbox{
+    grid-column:1/2 ;
+    grid-row: 4/5;
+    background-color: hsl(147, 100%, 50%)
+}
+
+.midllebox{
+    grid-column:2/3 ;
+    grid-row: 4/5;
+    background-color: aqua;
+}
+
+.rightbox{
+    grid-column: 3/4;
+    grid-row: 4/5;
+    background-color: blueviolet;
+}
+
+.bottom{
+    grid-column: 1/4;
+    grid-row:5/6 ;
+    background-color: hotpink;
+}
+
+
